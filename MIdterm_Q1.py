@@ -12,7 +12,7 @@ print('=' * 50)
 print(f'{'MOBILE LEGENDS --HERO ROSTER':^50}')
 print('='*50)
 for i in range(1,6):
-    print(f'    {i}.  {Hero[i-1]:<20}{roles[i-1]:^10} ')
+    print(f'    {i}.  {Hero[i-1]:<20}[{roles[i-1]}] ')
 print('='*50)
 print()
 
@@ -80,7 +80,7 @@ print('-'*50)
 print('Matches Played : ',matches_played)
 print(f'Wins : {wins}   |  Losses : {loss}')
 win_rate = ((wins/matches_played)*100)
-print(f'Win Rate : {win_rate:.0f}%')
+print(f'Win Rate\t: {win_rate:.0f}%')
 
 
 for i in matches:
